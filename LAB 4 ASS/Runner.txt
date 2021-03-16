@@ -1,0 +1,16 @@
+public class Runner{
+    public static void main(String[] args) {
+        hotdogsstand stand_1 = new hotdogsstand(1040, 11);
+        hotdogsstand stand_2 = new hotdogsstand(9144, 8);
+        hotdogsstand stand_3 = new hotdogsstand(1123, 21);
+        
+        stand_1.justSold();
+        stand_2.justSold();
+        stand_3.justSold();
+        
+        for (int i=0; i<3; i++){
+            
+        }
+        System.out.println("ID " + stand_1.get_stand_id_number() + "\n Total hotdogs sold " + stand_1.get_hotdogs_sold() + "\n\n" + "ID " + stand_2.get_stand_id_number() + "\n Total hotdogs sold " + stand_2.get_hotdogs_sold() + "\n\n" + "ID " + stand_3.get_stand_id_number() + "\n Total hotdogs sold " + stand_3.get_hotdogs_sold());
+    }
+}

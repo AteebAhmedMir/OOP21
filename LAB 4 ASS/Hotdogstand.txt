@@ -1,0 +1,30 @@
+
+public class hotdogsstand {
+    private int stand_id_number;
+     private int hotdogs_sold;
+     
+     hotdogsstand(int id, int sold){
+         stand_id_number = id;
+         hotdogs_sold = sold;
+     }
+
+     void justSold(){
+         hotdogs_sold++;
+     }
+
+     int get_hotdogs_sold(){
+         return hotdogs_sold;
+     }
+     
+     int get_stand_id_number(){
+         return stand_id_number;
+     }
+
+     void set_hotdogs_sold(int hotdogs_sold){
+         this.hotdogs_sold = hotdogs_sold;
+     }
+     
+     void set_stand_id_number(int stand_id_number){
+         this.stand_id_number = stand_id_number;
+     }
+}
